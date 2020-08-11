@@ -15,10 +15,10 @@ public class Calculator {
  }
  
  int add(){return x+y;}
- int sub(){return x+y;}
- int multiply(){return x+y;}
- int divide(){return x+y;}
- int modulus(){return x+y;} //find the reaminer of the number
+ int sub(){return x-y;}
+ int multiply(){return x*y;}
+ int divide(){return x/y;}
+ int modulus(){return x%y;} //find the reaminer of the number
 
     
 }
